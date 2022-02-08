@@ -7,13 +7,13 @@ client.on('ready', () => console.log(`Bot is successfully logged in`));
 
 
 client.on("messageCreate", message => {
-    if(message.content === "pog") {
+    if(message.content === "embed") {
       
          message.channel.send(
           new Embed()
    
-          .setTitle('Your Title')
-          .setDescription("poggers indeed")
+          .setTitle('Working')
+          .setDescription("Finally worked")
        
         )
     }
